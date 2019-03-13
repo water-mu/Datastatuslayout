@@ -6,7 +6,7 @@ View状态切换
 
 allprojects {
 		repositories {
-			...
+		
 			maven { url 'https://jitpack.io' }
 		}
 	}
