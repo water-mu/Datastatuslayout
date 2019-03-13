@@ -2,7 +2,8 @@
 View状态切换
 
 ##使用
-···
+
+
 allprojects {
 		repositories {
 			...
@@ -13,4 +14,4 @@ allprojects {
 	dependencies {
 	        implementation 'com.github.water-mu:Datastatuslayout:V1.0'
 	}
-···
+
