@@ -1,5 +1,16 @@
 apply plugin: 'com.android.library'
 
+apply plugin: 'com.novoda.bintray-release'
+publish {
+//    repoName = "LiuView"
+    userOrg = 'water-mu'
+    groupId = 'com.mumu.statuslayout'
+    artifactId = 'DataStatusLayout'
+    publishVersion = '1.0.0'
+    desc = 'View状态切换'
+    website = 'https://github.com/water-mu/Datastatuslayout'
+}
+
 android {
     compileSdkVersion 28
     buildToolsVersion '28.0.3'
